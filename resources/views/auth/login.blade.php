@@ -1,7 +1,7 @@
 <x-master>
     <div class="container mx-auto flex justify-center">
-        
-
+    
+        <x-panal>
             <form method="POST"
                   action="{{ route('login') }}"
             >
@@ -80,6 +80,7 @@
                     <a href="{{ route('password.request') }}" class="text-xs text-gray-700">Forgot Your Password?</a>
                 </div>
             </form>
+        </x-panal>
         
     </div>
 </x-master>

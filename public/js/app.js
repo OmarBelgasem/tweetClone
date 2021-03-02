@@ -49900,8 +49900,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/omejb/tailwindcss/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/omejb/tailwindcss/resources/css/main.css */"./resources/css/main.css");
+__webpack_require__(/*! /home/omarbl/data/Projects/tweety/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/omarbl/data/Projects/tweety/resources/css/main.css */"./resources/css/main.css");
 
 
 /***/ })

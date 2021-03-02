@@ -1,11 +1,8 @@
 <x-master>
-<div class="container mx-auto px-6 py-4 bg-gray-400">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
+<div class="container mx-auto">
                 <div class="font-bold text-lg mb-4">{{ __('Register') }}</div>
 
-                <div class="card-body">
+                <x-panal>
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
@@ -81,9 +78,7 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </x-panal>
             </div>
         </div>
-    </div>
-</div>
 </x-master>
